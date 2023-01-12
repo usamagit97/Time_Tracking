@@ -1,21 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Time Tracking</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="main-container">
-    <div class="left-container"></div>
-    <div class="right-container">
-        <div class="inner-container">
-    <input class="head-input" type="text" placeholder="What are you looking on?">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="test-1">
+      <div class="test-left">
+        <div class="left-title">
+          <span class="title leftmenupad">John Doe</span>
+          <span><i class="fa-solid fa-angle-down icon-1"></i></span>
+        </div>
+        <div><span class="leftmenuemail">rajputusama58@gmail.com</span></div>
+        <div>
+          <p class="p2 leftmenupad">
+            <span class="icon-2"><i class="fa-solid fa-rotate"></i></span
+            >Reconnent
+          </p>
+        </div>
+        <div><p class="button-label leftmenupad">TRACK</p></div>
+        <div>
+          <p class="timer leftmenupad">
+            <span class="icon-2"><i class="fa-solid fa-clock"></i></span>Timer
+          </p>
+        </div>
+        <div><p class="button-label leftmenupad">ANALYZE</p></div>
+        <div>
+          <p class="leftmenupad button-label repo">
+            <span class="icon-2"><i class="fa-solid fa-book"></i></span>Reports
+          </p>
+        </div>
+        <div><p class="leftmenupad mng">MANAGE</p></div>
+        <div>
+          <p class="leftmenupad button-label">
+            <span class="icon-2"><i class="fa-solid fa-folder"></i></span
+            >Projects
+          </p>
+        </div>
+        <div>
+          <p class="leftmenupad button-label">
+            <span class="icon-2"><i class="fa-solid fa-address-card"></i></span
+            >Clients
+          </p>
+        </div>
+        <div>
+          <p class="leftmenupad button-label">
+            <span class="icon-2"><i class="fa-solid fa-user-group"></i></span
+            >Team
+          </p>
+        </div>
+        <div>
+          <p class="leftmenupad button-label">
+            <span class="icon-2"><i class="fa-solid fa-tag"></i></span>Tags
+          </p>
+        </div>
+        <div>
+          <p class="leftmenupad shw">
+            <span><i class="fa-solid fa-angle-down shw-arr"></i></span>Show More
+          </p>
+        </div>
+      </div>
+      <div class="test-right">
+        <div class="innner-container">
+          <div>
+            <input
+              class="inp-txt"
+              type="text"
+              placeholder="What are you looking on?"
+            />
+          </div>
+          <div class="nav-icons">
+            <span><i class="fa-solid fa-folder-closed nav-fld-icon"></i></span>
+            <span><i class="fa-solid fa-tag nav-fld-icon"></i></span>
+            <span class="nav-fld-icon">&#36;</span>
+          </div>
+          <div class="nav-timer">
+            <span class="nav-tim">0:00:00</span>
+            <span><i class="fa-solid fa-circle-play nav-play"></i></span>
+          </div>
+          <div class="nav-ver">
+            <span><i class="fa-solid fa-circle-play play-ver"></i></span>
+            <span><i class="fa-solid fa-circle-plus plus-ver"></i></span>
+          </div>
+        </div>
+        <div class="right-con">
+          <div>
+            <span class="rig-wk">THIS WEEK</span>
+          </div>
+          <div>
+            <span>TODAY</span>
+            <span class="rig-wk">0 SEC</span>
+            <span>WEEK TOTAL</span>
+            <span class="rig-wk">0 SEC</span>
+            <span>LAST VIEW</span>
+            <span><i class="fa-solid fa-angle-down rig-icon-1"></i></span>
+          </div>
+        </div>
+
+        <div class="test-right">
+            <div class="innner-container-1">
+                <div><span class="font-weight">Wed, 4 Jan</span></div>
+                <div>
+                    <span class="font-weight">02:58:12</span>
+                    <span><i class="fa-solid fa-list-check"></i></span>
+                </div>  
+            </div>
+            <div class="innner-container-2">
+                <div><span>Add Description</span></div>
+                <div>
+                    <span>05:13 P.M</span>
+                </div>  
+            </div>
+            <div class="innner-container-3">
+                <div><span>add component for the input type question in form builder.</span></div>
+                <div>
+                    <span>02:58:12</span>
+                </div>  
+            </div>
+      </div>
+
+      <div class="test-right-1">
+        <div class="innner-container-1">
+            <div><span class="font-weight">Mon, 2 Jan</span></div>
+            <div>
+                <span class="font-weight">02:58:12</span>
+                <span><i class="fa-solid fa-list-check"></i></span>
+            </div>  
+        </div>
+        <div class="innner-container-2">
+            <div><span>Adding a block for showing name change.</span></div>
+            <div>
+                <span>02:58:12</span>
+            </div>  
+        </div>
+        <div class="innner-container-2">
+          <div><span>While creating a new grave it was not allowing me.</span></div>
+          <div>
+              <span>02:58:12</span>
+          </div>  
+      </div>
+        <div class="innner-container-3">
+            <div><span>While creating a new grave it was not allowing me.</span></div>
+            <div>
+                <span>02:58:12</span>
+            </div>  
+        </div>
+  </div>
+  <div class="rig-btn">
+    <button class="btn-1">Load More</button>
+  </div>
+  
     </div>
-    </div>
-    </div>
-    
-</body>
+
+    <!-- <div class="main-container">
+      <div class="left-container">
+        <div class="left-content">
+          <div class="left-p leftmenupad">
+            <span class="title">John Doe</span>
+            <span class="icon-1"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div><p class="leftmenuemail">rajputusama58@gmail.com</p></div>
+          <div>
+            <p class="p2 leftmenupad">
+              <span class="icon-2"><i class="fa-solid fa-rotate"></i></span
+              >Reconnent
+            </p>
+          </div>
+          <div><p class="button-label leftmenupad">TRACK</p></div>
+          <div>
+            <p class="timer leftmenupad">
+              <span class="icon-2"><i class="fa-solid fa-clock"></i></span>Timer
+            </p>
+          </div>
+          <div><p class="button-label leftmenupad">ANALYZE</p></div>
+          <div>
+            <p class="leftmenupad button-label repo">
+              <span class="icon-2"><i class="fa-solid fa-book"></i></span
+              >Reports
+            </p>
+          </div>
+          <div><p class="leftmenupad mng">MANAGE</p></div>
+          <div>
+            <p class="leftmenupad button-label">
+              <span class="icon-2"><i class="fa-solid fa-folder"></i></span
+              >Projects
+            </p>
+          </div>
+          <div>
+            <p class="leftmenupad button-label">
+              <span class="icon-2"
+                ><i class="fa-solid fa-address-card"></i></span
+              >Clients
+            </p>
+          </div>
+          <div>
+            <p class="leftmenupad button-label">
+              <span class="icon-2"><i class="fa-solid fa-user-group"></i></span
+              >Team
+            </p>
+          </div>
+          <div>
+            <p class="leftmenupad button-label">
+              <span class="icon-2"><i class="fa-solid fa-tag"></i></span>Tags
+            </p>
+          </div>
+          <div>
+            <p class="leftmenupad shw">
+              <span><i class="fa-solid fa-angle-down shw-arr"></i></span>Show
+              More
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="innner-container">
+          <div>
+            <input type="text" placeholder="What are you looking on?" />
+          </div>
+          <div>
+            <FontAwesomeIcon icon="fa-solid fa-folder-closed" />
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </body>
 </html>

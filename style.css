@@ -1,41 +1,225 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
 }
-#main-container{
-    position: relative;
+.check{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2C1338;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+position: relative;
+width: 100vw;
+height: 100vh;
+}
+.left-container{
+position: absolute;
+width: 239px;
+height: 100vh;
+left: 0px;
+top: 0px;
+background: #2C1338;
+color: #fff;
+}
+.leftmenupad{
+    padding: 6px 12px;
+}
+.leftmenuemail{
+    padding: 0px 12px;
+}
+.left-p{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 12px 8px 6px 12px; */
+    /* font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px; */
+}
+.title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.left-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer{
+    font-size: 18px;
+    background-color: #A04A97;
+    padding: 10px;
+}
+.p2{
+    margin-top: 20px;
+    padding:15px 12px;
+    font-size: 18px;
+    background: #412A4C;
+}
+.button-label{
+    color: #64526D;
+    margin-top: 8px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.repo{
+    font-size: 20px;
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+.mng{
+    color: #6E5C76;
+}
+.icon-1{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #998C9F;
+}
+.icon-2{
+    margin-right: 10px;
+}
+.shw{
+    font-size: 22px;
+}
+.shw-arr{
+    margin-right: 15px;
+    font-size: 20px;
+}
+/* .left-content{
+    padding-left: 10px;
+} */
+.right-container{
+    position: absolute;
+    top: 0;
+    left: 239px;
+    width: 100vw;
+    height: 100vh;
+    background: #FEF9F7;
+}
+.innner-container{
+    width: 100%;
+    height: 75px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    display: flex;
+}
+.inp-txt{
+    width: 52vw;
+    height: 75px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    width: 12vw;
+}
+.nav-fld-icon{
+    color: #7D6E84;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.nav-timer{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+}
+.nav-tim{
+    font-size: 22px;
+    color: #95889B;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.nav-play{
+    color: #D164C5;
+    font-size: 40px;
+}
+.play-ver{
+    font-size: 20px;
+}
+.plus-ver{
+    font-size: 20px;
+
+}
+.nav-ver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    gap: 8px;
+}
+/* Test  */
+.test-1{
+    display: flex;
     height: 100vh;
     width: 100vw;
 }
-.left-container{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 239px;
-    height: 828px;
-    background-color: #2C1338;
+.test-left{
+    background: #2C1338;
+    width: 18vw;
+    height: 100vh;
+    color: #fff;
 }
-.right-container{
-    position: absolute;
-    width: 1202px;
-    height: 828px;
-    left: 239px;
-    top: 0px;
+.test-right{
     background: #FEF9F7;
+    width: 82vw;
 }
-.inner-container{
-    position: absolute;
-    top: 0;
-    height: 75px;
-    width: 1202px;
-    background: #ffffff;
+.right-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
 }
-.head-input{
-    height: 75px;
-    width: 1202px;
-    font-size: 18px;
-    border: none;
-    padding-left: 15px;
+.rig-wk{
+    font-weight: 600;
+    margin: 0px 23px 0px 5px;
+}
+.rig-icon-1{
+    font-size: 15px;
+}
+.innner-container-1{
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
-
+.innner-container-2{
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.innner-container-3{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.test-right-1{
+    margin-top: 30px;
+}
+.rig-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn-1{
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.font-weight{
+    font-weight: 600;
+}
